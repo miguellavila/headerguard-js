@@ -1,0 +1,13 @@
+{
+  "name": "headerguard-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "description": "Auditoria defensiva e não intrusiva de cabeçalhos HTTP"
+}
