@@ -1,4 +1,3 @@
-/** Evaluate defensive response headers; no exploits or crawling. */
 export function auditHeaders(headers) {
   const get = (name) => String(headers.get(name) ?? '').trim();
   const rules = [
